@@ -1,8 +1,8 @@
 import serial
 import os
 
-# Configure serial connection (Adjust the port based on your system)
-ser = serial.Serial(port="COM10", baudrate=115200, timeout=1)  # Change COM10 to your actual port
+# Configure serial connection
+ser = serial.Serial(port="COM10", baudrate=115200, timeout=1)
 
 file = None  # File handler, initially None
 filename = None  # To store the received filename
